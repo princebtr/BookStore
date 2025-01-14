@@ -1,5 +1,5 @@
 import React from 'react'
-import banner from "../../public/book.jpg"
+import banner from "../assets/book.jpg"
 
 function landingpage() {
   return (
@@ -25,7 +25,7 @@ function landingpage() {
   <input type="text" className="grow" placeholder="Email" />
 </label>
           </div>
-          <button className="btn btn-secondary mt-6">Get Email</button>
+          <button className="btn btn-secondary mt-6">Subscribe</button>
         </div>
         <div className="w-full md:w-1/2">
           <img src={banner} className='h-45 w-45 hidden md:block' alt="banner" />
