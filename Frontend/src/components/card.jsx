@@ -5,7 +5,7 @@ function card({item}) {
   return (
     <>
     <div>
-    <div className="card bg-base-100 w-96 shadow-xl">
+    <div className="mt-6 card bg-base-100 w-96 shadow-xl">
   <figure>
     <img
       src={item.image}
@@ -16,10 +16,10 @@ function card({item}) {
       {item.name}
       <div className="badge badge-secondary">{item.type}</div>
     </h2>
-    <p>{item.tile}</p>
-    <div className="card-actions justify-end">
-      <div className="badge badge-outline">{item.price}</div>
+    <p>{item.title}</p>
+    <div className="card-actions flex justify-between">
       <div className="badge badge-outline">{item.category}</div>
+      <div className="cursor-pointer border-[2px] rounded-full px-2 py-1  hover:bg-green-500 hover:text-white duration-200">Get Now</div>
     </div>
   </div>
 </div>

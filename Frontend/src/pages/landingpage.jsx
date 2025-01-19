@@ -1,5 +1,5 @@
 import React from 'react'
-import banner from "../assets/book.jpg"
+import banner from "../assets/book.png"
 
 function landingpage() {
   return (
