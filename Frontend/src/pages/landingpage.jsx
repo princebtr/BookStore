@@ -1,9 +1,17 @@
 import React from 'react'
 import banner from "../assets/book.png"
+import FreeBook from './freebook'
+import Slider from '../components/SlidingAuto'
+import BestSeller from '../components/slidebestsellers'
 
 function landingpage() {
   return (
     <>
+    <div className='dark:bg-slate-900 dark:text-white'>
+    <div>
+    
+      <BestSeller/>
+    </div>
     <div className="max-w-screen-2xl container mx-auto ms:px-20 px-4 flex flex-col md:flex-row">
         <div className="w-full md:w-1/2 mt-12 md:mt32">
           <div className="space-y-20">
@@ -11,6 +19,7 @@ function landingpage() {
           <p className="text-xl">
           Discover literary treasures at our bookstore, from bestsellers to timeless classics. Enjoy personalized recommendations, exclusive discounts, and fast delivery, making your next great read just a click away.<span className="text-pink-500"><br /><br />Love reading books...YOU ARE AT RIGHT PLACE!!!</span>
           </p>
+          
           <label className="input input-bordered flex items-center gap-2">
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -31,7 +40,13 @@ function landingpage() {
           <img src={banner} className='h-45 w-45 hidden md:block' alt="banner" />
         </div>
     </div>
+    <div className='py-4 '>
+    <Slider/>
+    </div>
+    <FreeBook/>
+    </div>
     </>
+
   )
 }
 

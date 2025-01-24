@@ -1,0 +1,43 @@
+[
+    { 
+        "icon": "https://www.bookswagon.com/Images/staticimages/icon2.png", 
+        "label": "New Arrivals", 
+        "type": "awards" 
+    },
+    { 
+        "icon": "https://www.bookswagon.com/Images/staticimages/icon5.png", 
+        "label": "Fictions Books", 
+        "type": "awards" 
+    },
+    { 
+        "icon": "https://www.bookswagon.com/Images/staticimages/tarot.png", 
+        "label": "Tarot Cards", 
+        "type": "awards" 
+    },
+    { 
+        "icon": "https://www.bookswagon.com/Images/staticimages/TodaysDeal.png", 
+        "label": "Today's Deal", 
+        "type": "awards" 
+    },
+    { 
+        "icon": "https://www.bookswagon.com/Images/staticimages/icon1.png", 
+        "label": "Best Seller", 
+        "type": "awards" 
+    },
+    { 
+        "icon": "https://www.bookswagon.com/Images/staticimages/icon8.png", 
+        "label": "Award Winners", 
+        "type": "awards" 
+    },
+    { 
+        "icon": "https://www.bookswagon.com/Images/staticimages/icon4.png", 
+        "label": "Box Sets", 
+        "type": "awards" 
+    },
+    
+    { 
+        "icon": "https://www.bookswagon.com/Images/staticimages/icon7.png", 
+        "label": "Best Sellser", 
+        "type": "awards" 
+    }
+]

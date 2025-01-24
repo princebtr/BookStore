@@ -45,7 +45,7 @@ function FreeBook() {
 
   return (
     <>
-      <div className="max-w-screen-2xl container mx-auto ms:px-20 px-4 mt-10">
+      <div className="max-w-screen-2xl container mx-auto ms:px-20 px-4 mt-1 dark:bg-slate-900 dark:text-white">
         <div>
           <h1 className="font-bold text-xl pb-2">Free Offered Books</h1>
           <p>
