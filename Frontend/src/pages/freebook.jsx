@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import list from '../assets/list.json';
-import Card from '../components/card'; // Import your Card component
+import list from "../assets/list.json";
+import Card from "../components/card"; // Import your Card component
 
 function FreeBook() {
   const filterdata = list.filter((data) => data.type === "Free");
@@ -22,25 +22,25 @@ function FreeBook() {
           slidesToShow: 3,
           slidesToScroll: 3,
           infinite: true,
-          dots: true
-        }
+          dots: true,
+        },
       },
       {
         breakpoint: 600,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
-          initialSlide: 2
-        }
+          initialSlide: 2,
+        },
       },
       {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-    ]
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
 
   return (
@@ -56,7 +56,7 @@ function FreeBook() {
             </span>
           </p>
         </div>
-    
+
         <div>
           <Slider {...settings}>
             {filterdata.map((item) => (

@@ -36,28 +36,46 @@ function PauseOnHover() {
   };
   return (
     <>
-    <div className="mt-16 dark:bg-slate-800 dark:text-white">
-        <img src="https://www.bookswagon.com/images/promotionimages/web/2_CuratedWeb0201.jpg" alt="best" />
-    </div>
-    <div className="slider-container">
-      <Slider {...settings}>
-      <div>
-          <img src="https://www.bookswagon.com/bannerimages/81_inr.jpg?v=3.7" alt="1" />
-        </div>
-        <div>
-        <img src="https://www.bookswagon.com/bannerimages/85_inr.jpg?v=3.5" alt="2" />
-        </div>
-        <div>
-        <img src="https://www.bookswagon.com/bannerimages/70_inr.jpg?v=3.5" alt="3" />
-        </div>
-        <div>
-        <img src="https://www.bookswagon.com/bannerimages/79_inr.jpg?v=3.5" alt="4" />
-        </div>
-        <div>
-        <img src="https://www.bookswagon.com/bannerimages/83_inr.jpg?v=3.5" alt="4" />
-        </div>
-      </Slider>
-    </div>
+      <div className="mt-16 dark:bg-slate-800 dark:text-white">
+        <img
+          src="https://www.bookswagon.com/images/promotionimages/web/2_CuratedWeb0201.jpg"
+          alt="best"
+        />
+      </div>
+      <div className="slider-container">
+        <Slider {...settings}>
+          <div>
+            <img
+              src="https://www.bookswagon.com/bannerimages/81_inr.jpg?v=3.7"
+              alt="1"
+            />
+          </div>
+          <div>
+            <img
+              src="https://www.bookswagon.com/bannerimages/85_inr.jpg?v=3.5"
+              alt="2"
+            />
+          </div>
+          <div>
+            <img
+              src="https://www.bookswagon.com/bannerimages/70_inr.jpg?v=3.5"
+              alt="3"
+            />
+          </div>
+          <div>
+            <img
+              src="https://www.bookswagon.com/bannerimages/79_inr.jpg?v=3.5"
+              alt="4"
+            />
+          </div>
+          <div>
+            <img
+              src="https://www.bookswagon.com/bannerimages/83_inr.jpg?v=3.5"
+              alt="4"
+            />
+          </div>
+        </Slider>
+      </div>
     </>
   );
 }

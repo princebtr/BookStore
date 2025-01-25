@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import Slider from "react-slick";
-import slideData from '../assets/slideraward.json';
+import slideData from "../assets/slideraward.json";
 
 function AutoPlayMethods() {
   let sliderRef = useRef(null);
@@ -43,15 +43,12 @@ function AutoPlayMethods() {
       },
     ],
   };
-  
 
   return (
-    
     <div className="slider-container " style={styles.sliderWrapper}>
       <div style={styles.separator}></div>
       <br />
-      <Slider ref={slider => (sliderRef = slider)} {...settings}>
-        
+      <Slider ref={(slider) => (sliderRef = slider)} {...settings}>
         {slideData.map((slide, index) => (
           <div key={index} style={styles.slideItem}>
             <img src={slide.icon} alt={slide.label} style={styles.image} />
@@ -84,8 +81,8 @@ const styles = {
     textAlign: "center", // Ensure text is centered
   },
   image: {
-    width: "90px", 
-    height: "90px", 
+    width: "90px",
+    height: "90px",
     marginBottom: "10px", // Adds space between the image and label
   },
   label: {
